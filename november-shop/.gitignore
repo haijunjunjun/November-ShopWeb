@@ -8,3 +8,17 @@ target/generated-sources/
 target/generated-test-sources/
 target/classes
 target/test-classes
+.classpath
+.gitignore
+.project
+.settings/
+november-domain.iml
+pom.xml
+src/
+target/
+november-mapper.iml
+november-service.iml
+november-mapper/
+november-service/
+november-utils/
+november-web/

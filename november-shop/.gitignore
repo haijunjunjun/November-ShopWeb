@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries/
+.idea/modules.xml
+november-shop.iml
+target/generated-sources/
+target/generated-test-sources/
+target/classes
+target/test-classes

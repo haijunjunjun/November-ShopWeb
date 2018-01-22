@@ -14,5 +14,12 @@ public interface UserService {
 	 * @param username
 	 * @return
 	 */
-	public User findUserByName(String username);
+	User findUserByName(String username);
+
+	/**
+	 * 根据用户信息进行注册
+	 * @param user
+	 * @return
+	 * */
+	String registerUser (User user);
 }

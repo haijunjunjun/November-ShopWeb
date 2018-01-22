@@ -31,5 +31,13 @@
 			<artifactId>november-domain</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/tk.mybatis/mapper -->
+		<dependency>
+			<groupId>tk.mybatis</groupId>
+			<artifactId>mapper</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+
 	</dependencies>
 </project>

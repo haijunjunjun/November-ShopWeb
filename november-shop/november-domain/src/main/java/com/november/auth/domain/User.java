@@ -1,17 +1,23 @@
 package com.november.auth.domain;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.Set;
 
+@Entity
+@Table(name = "nov_user")
 public class User implements Serializable{
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -7627747109552629359L;
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+
 	private String  loginName;//登陆名称
 	private String name;// 名称
 	private String password;//密码

@@ -45,7 +45,7 @@
             </collection>
         </collection>
 	</resultMap>
-	
+
 	
 	<select id="findUserByName" resultMap="resultUser" parameterType="string">
 		SELECT
@@ -96,8 +96,39 @@
 			</if>
 		</where>
 	</select>
-	
-	
+
+	<!--<insert id="registerUser"  parameterType="string">-->
+	<!--INSERT INTO nov_user VALUES(-->
+	<!--#{id},-->
+	<!--#{loginName},-->
+	<!--#{name},-->
+	<!--#{password},-->
+	<!--#{gender},-->
+	<!--#{birthday},-->
+	<!--#{province},-->
+	<!--#{ucity},-->
+	<!--#{area},-->
+	<!--#{address},-->
+	<!--#{mobile},-->
+	<!--#{tell},-->
+	<!--#{safeQues},-->
+	<!--#{safeAns},-->
+	<!--#{qq},-->
+	<!--#{email},-->
+	<!--#{level},-->
+	<!--#{consume},-->
+	<!--#{integral},-->
+	<!--#{loginNum},-->
+	<!--#{registerDate},-->
+	<!--#{firstLoginedTime},-->
+	<!--#{lastLoginedTime},-->
+	<!--#{pswChangeDate},-->
+	<!--#{locked},-->
+	<!--#{status},-->
+	<!--#{createTime},-->
+	<!--#{updateTime}-->
+	<!--)-->
+	<!--</insert>-->
 </mapper>
 
 

@@ -1,15 +1,17 @@
 package com.november.auth.mapper;
 
+import com.november.auth.domain.User;
+import com.november.mymapper.MyMapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.november.auth.domain.User;
-
-public interface UserMapper {
+public interface UserMapper extends MyMapper<User>{
 	
 	/**
 	 * 根据名称查询用户
 	 * @param username
 	 * @return
 	 */
-	public User findUserByName(@Param("username")String username);
+	User findUserByName(@Param("username")String username);
+
+	User registerUser (User user);
 }
